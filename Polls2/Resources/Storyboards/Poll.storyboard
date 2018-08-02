@@ -45,6 +45,7 @@
                                         <state key="normal" title="Save Response"/>
                                         <connections>
                                             <action selector="saveResponseWasTapped:" destination="M2v-42-UXC" eventType="touchUpInside" id="UN7-0h-l3I"/>
+                                            <action selector="switchToCombined:" destination="M2v-42-UXC" eventType="touchUpInside" id="JU2-un-oaB"/>
                                         </connections>
                                     </button>
                                 </subviews>

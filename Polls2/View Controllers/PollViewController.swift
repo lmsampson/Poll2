@@ -24,6 +24,11 @@ class PollViewController: UIViewController, PollControllerProtocol {
         resultTextField.text = ""
     }
     
+    @IBAction func switchToCombined(_ sender: AnyObject) {
+        tabBarController?.selectedIndex = 2
+    }
+    
+    
     var pollController: PollController?
 
     @IBOutlet weak var nameTextField: UITextField!

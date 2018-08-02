@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		FF7DE8072113937C009DB52B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7DE8062113937C009DB52B /* AppDelegate.swift */; };
-		FF7DE8092113937C009DB52B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7DE8082113937C009DB52B /* ViewController.swift */; };
 		FF7DE80C2113937C009DB52B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7DE80A2113937C009DB52B /* Main.storyboard */; };
 		FF7DE80E2113937D009DB52B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7DE80D2113937D009DB52B /* Assets.xcassets */; };
 		FF7DE8112113937D009DB52B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7DE80F2113937D009DB52B /* LaunchScreen.storyboard */; };
+		FF7DE81D2113943C009DB52B /* Poll.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7DE81C2113943C009DB52B /* Poll.swift */; };
+		FF7DE81F2113944B009DB52B /* PollController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7DE81E2113944B009DB52B /* PollController.swift */; };
+		FF7DE821211395B5009DB52B /* Poll.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7DE820211395B5009DB52B /* Poll.storyboard */; };
+		FF7DE823211395CB009DB52B /* Results.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7DE822211395CB009DB52B /* Results.storyboard */; };
+		FF7DE825211395D8009DB52B /* Combined.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7DE824211395D8009DB52B /* Combined.storyboard */; };
+		FF7DE8282113961C009DB52B /* PollingTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7DE8272113961C009DB52B /* PollingTabBarViewController.swift */; };
+		FF7DE82A21139634009DB52B /* CombinedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7DE82921139634009DB52B /* CombinedViewController.swift */; };
+		FF7DE82C21139655009DB52B /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7DE82B21139655009DB52B /* ResultsTableViewController.swift */; };
+		FF7DE82E2113967B009DB52B /* PollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7DE82D2113967B009DB52B /* PollViewController.swift */; };
+		FF7DE83121139D3E009DB52B /* PollControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7DE83021139D3E009DB52B /* PollControllerProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FF7DE8032113937C009DB52B /* Polls2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Polls2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7DE8062113937C009DB52B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF7DE8082113937C009DB52B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF7DE80B2113937C009DB52B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF7DE80D2113937D009DB52B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF7DE8102113937D009DB52B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF7DE8122113937D009DB52B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF7DE81C2113943C009DB52B /* Poll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poll.swift; sourceTree = "<group>"; };
+		FF7DE81E2113944B009DB52B /* PollController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollController.swift; sourceTree = "<group>"; };
+		FF7DE820211395B5009DB52B /* Poll.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Poll.storyboard; sourceTree = "<group>"; };
+		FF7DE822211395CB009DB52B /* Results.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Results.storyboard; sourceTree = "<group>"; };
+		FF7DE824211395D8009DB52B /* Combined.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Combined.storyboard; sourceTree = "<group>"; };
+		FF7DE8272113961C009DB52B /* PollingTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollingTabBarViewController.swift; sourceTree = "<group>"; };
+		FF7DE82921139634009DB52B /* CombinedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedViewController.swift; sourceTree = "<group>"; };
+		FF7DE82B21139655009DB52B /* ResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
+		FF7DE82D2113967B009DB52B /* PollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollViewController.swift; sourceTree = "<group>"; };
+		FF7DE83021139D3E009DB52B /* PollControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollControllerProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +73,70 @@
 			isa = PBXGroup;
 			children = (
 				FF7DE8062113937C009DB52B /* AppDelegate.swift */,
-				FF7DE8082113937C009DB52B /* ViewController.swift */,
-				FF7DE80A2113937C009DB52B /* Main.storyboard */,
-				FF7DE80D2113937D009DB52B /* Assets.xcassets */,
-				FF7DE80F2113937D009DB52B /* LaunchScreen.storyboard */,
-				FF7DE8122113937D009DB52B /* Info.plist */,
+				FF7DE82F21139D08009DB52B /* Protocol */,
+				FF7DE81A2113940D009DB52B /* Model */,
+				FF7DE819211393FD009DB52B /* Model Controller */,
+				FF7DE826211395E5009DB52B /* View Controllers */,
+				FF7DE81821139389009DB52B /* Resources */,
 			);
 			path = Polls2;
+			sourceTree = "<group>";
+		};
+		FF7DE81821139389009DB52B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FF7DE81B2113941C009DB52B /* Storyboards */,
+				FF7DE8122113937D009DB52B /* Info.plist */,
+				FF7DE80D2113937D009DB52B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FF7DE819211393FD009DB52B /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF7DE81E2113944B009DB52B /* PollController.swift */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		FF7DE81A2113940D009DB52B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF7DE81C2113943C009DB52B /* Poll.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF7DE81B2113941C009DB52B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FF7DE80A2113937C009DB52B /* Main.storyboard */,
+				FF7DE80F2113937D009DB52B /* LaunchScreen.storyboard */,
+				FF7DE820211395B5009DB52B /* Poll.storyboard */,
+				FF7DE822211395CB009DB52B /* Results.storyboard */,
+				FF7DE824211395D8009DB52B /* Combined.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FF7DE826211395E5009DB52B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF7DE82D2113967B009DB52B /* PollViewController.swift */,
+				FF7DE82B21139655009DB52B /* ResultsTableViewController.swift */,
+				FF7DE82921139634009DB52B /* CombinedViewController.swift */,
+				FF7DE8272113961C009DB52B /* PollingTabBarViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FF7DE82F21139D08009DB52B /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				FF7DE83021139D3E009DB52B /* PollControllerProtocol.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +198,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF7DE8112113937D009DB52B /* LaunchScreen.storyboard in Resources */,
+				FF7DE823211395CB009DB52B /* Results.storyboard in Resources */,
+				FF7DE821211395B5009DB52B /* Poll.storyboard in Resources */,
 				FF7DE80E2113937D009DB52B /* Assets.xcassets in Resources */,
 				FF7DE80C2113937C009DB52B /* Main.storyboard in Resources */,
+				FF7DE825211395D8009DB52B /* Combined.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +213,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF7DE8092113937C009DB52B /* ViewController.swift in Sources */,
+				FF7DE82E2113967B009DB52B /* PollViewController.swift in Sources */,
+				FF7DE82C21139655009DB52B /* ResultsTableViewController.swift in Sources */,
+				FF7DE8282113961C009DB52B /* PollingTabBarViewController.swift in Sources */,
+				FF7DE81F2113944B009DB52B /* PollController.swift in Sources */,
+				FF7DE83121139D3E009DB52B /* PollControllerProtocol.swift in Sources */,
+				FF7DE82A21139634009DB52B /* CombinedViewController.swift in Sources */,
+				FF7DE81D2113943C009DB52B /* Poll.swift in Sources */,
 				FF7DE8072113937C009DB52B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,7 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Polls2/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Polls2/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +382,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Polls2/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Polls2/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

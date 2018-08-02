@@ -19,6 +19,9 @@ class PollViewController: UIViewController, PollControllerProtocol {
             let response = resultTextField.text else { return }
         
         pollController?.createPoll(withName: name, response: response)
+        
+        nameTextField.text = ""
+        resultTextField.text = ""
     }
     
     var pollController: PollController?

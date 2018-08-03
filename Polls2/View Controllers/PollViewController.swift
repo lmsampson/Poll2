@@ -18,9 +18,9 @@ class PollViewController: UIViewController, PollControllerProtocol {
         guard let name = nameTextField.text,
             let response = resultTextField.text else { return }
         
-        let timestamp = Date()
-        
         pollController?.createPoll(withName: name, response: response, timestamp: Date())
+        
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "load"), object: nil)
         
         nameTextField.text = ""
         resultTextField.text = ""
@@ -30,7 +30,6 @@ class PollViewController: UIViewController, PollControllerProtocol {
         tabBarController?.selectedIndex = 2
     }
     
-    // NotificationCenter.default.post(name: NSNotification.Name(rawValue: "load"), object: nil)
     
     var pollController: PollController?
 

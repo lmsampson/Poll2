@@ -11,4 +11,5 @@ import Foundation
 struct Poll: Equatable {
     var name: String
     var response: String
+    var timestamp: Date
 }
